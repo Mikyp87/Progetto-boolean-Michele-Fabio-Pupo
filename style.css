@@ -1,0 +1,72 @@
+body{
+ background-image: url(background.jpg);
+ background-size: cover;
+}
+
+body div:first-child{
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 20px;
+}
+
+.container{
+ width: 1000px;
+ padding: 50px;
+ margin:auto
+}
+
+.logo{
+ width: 35%;
+ margin-left: 35%;
+}
+
+.logo-text{
+ font-size: 40px;
+ margin: 5px 0px 1px 250px;
+ display: inline-block; 
+ color: rgb(46, 253, 0);  
+}
+
+nav{
+ text-align: center;
+}
+
+.read{
+ margin: 1px;
+ padding: 15px;
+ background-color:rgb(46, 253, 0) ;
+}
+
+.monopattino{
+ display:inline-block;
+ font-family: 'Ubuntu', sans-serif;
+ color: white;
+ font-size: 25px;
+ margin: 30px 0px 1px;
+}
+
+.via{
+ font-size: 18px;
+ font-family: 'Ubuntu', sans-serif;
+ color: white;
+}
+
+.arancione, .verde, .rosso{
+ margin: 1px;
+ padding: 15px;
+ border-radius: 5px;
+}
+
+.arancione{
+ background-color:rgb(253, 177, 0) ;
+ width: 40%;
+}
+
+.verde{
+ background-color:rgb(15, 168, 33) ;
+ width: 80%; 
+}
+   
+.rosso{
+ background-color:rgb(253, 72, 0) ;
+ width: 20%;
+}
